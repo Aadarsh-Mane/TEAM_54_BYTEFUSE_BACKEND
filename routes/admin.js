@@ -27,5 +27,6 @@ adminRouter.patch("/updateAlertStatus/:alertId", updateAlertStatus);
 adminRouter.get("/getAlertsByStatus", getAlertsByStatus);
 adminRouter.get("/getAlertCounts", getAlertCounts);
 adminRouter.post("/findEmergencyServices", findEmergencyServices);
+adminRouter.get("/listEmergencies", listEmergencies);
 
 export default adminRouter;

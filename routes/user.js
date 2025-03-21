@@ -97,8 +97,14 @@ userRouter.post(
 userRouter.get("/getAllUsers", getAllUsers);
 userRouter.post(
   "/sendWelcomeMessage",
+  auth,
 
   sendWelcomeMessage
+);
+userRouter.post(
+  "/sendWelcomeMessage",
+
+  sendWelcomeMessage1
 );
 userRouter.get("/getMyIncident", auth, getMyIncident);
 
