@@ -6,6 +6,7 @@ import {
   getAllIncidents,
   getIncidentCounts,
   getRecentIncidents,
+  listEmergencies,
   updateAlertStatus,
   updateIncidentPriority,
   updateIncidentStatus,

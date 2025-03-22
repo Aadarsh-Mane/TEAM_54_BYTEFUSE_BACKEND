@@ -11,6 +11,7 @@ import {
   getUserProfile,
   initiateSignup,
   sendWelcomeMessage,
+  sendWelcomeMessage1,
   setPin,
   signin,
   updateUserProfile,

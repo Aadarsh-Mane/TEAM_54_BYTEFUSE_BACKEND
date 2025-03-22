@@ -1,9 +1,10 @@
 import { Readable } from "stream";
+// import Community from "../models/community.js";
+// import cloudinary from "../helpers/cloudinary.js";
+// import User from "../models/users.js";
+// import Alert from "../models/alerts.js";
 import Community from "../models/community.js";
-import cloudinary from "../helpers/cloudinary.js";
 import User from "../models/users.js";
-import Alert from "../models/alerts.js";
-
 export const addPost = async (req, res) => {
   try {
     const { title, description, location, tags } = req.body; // Extract tags

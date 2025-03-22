@@ -1,19 +1,18 @@
 import axios from "axios";
 import bcrypt from "bcrypt";
-import User from "../models/users.js";
 import jwt from "jsonwebtoken";
 import { Readable } from "stream";
 import cloudinary from "../helpers/cloudinary.js";
 import Goal from "../models/goals.js";
-const JWT_SECRET = "vithuSafety";
-import Incident from "../models/incidents.js";
 import { uploadToCloudinary } from "../utils/uploadCloudinary.js";
 import dotenv from "dotenv";
 import twilio from "twilio";
+import User from "../models/users.js";
+dotenv.config();
+const JWT_SECRET = "vithuSafety";
 
 const FAST2SMS_API_KEY =
   "WdZ9ew6msGSY2anqctkj437lUgC5b1oKIzf0p8DxrPTABJMOFRdbD5sVpwNWKqLYPBuUJh34Qg9z0For";
-dotenv.config();
 
 // Then create a separate file for your Twilio service:
 // twilioService.js

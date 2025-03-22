@@ -1,5 +1,5 @@
-import Alert from "../models/alerts.js";
-import Incident from "../models/incidents.js";
+import SosEmergency from "../models/helps.js";
+import Incident from "../models/incident.js";
 import User from "../models/users.js";
 
 export const getAllUsers = async (req, res) => {
